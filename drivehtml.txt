@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Sales Letter</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        video {
+            width: 80%;
+            height: auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <video id="myVideo" width="640" height="360" autoplay controls>
+        <source src="https://drive.google.com/uc?export=download&id=1n2p01fSBPR2pD376v-vzv77nW6tF_6M6/view?usp=sharing" type="video/mp4">
+        Seu navegador não suporta a tag de vídeo.
+    </video>
+</body>
+</html>
